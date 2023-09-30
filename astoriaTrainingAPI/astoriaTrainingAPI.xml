@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>astoriaTrainingAPI</name>
+    </assembly>
+    <members>
+        <member name="M:astoriaTrainingAPI.Controllers.EmployeeAllowanceDetalsController.PostUserInfo(astoriaTrainingAPI.Models.UserInfo)">
+            <summary>
+            This Methode is used to add a New user into user info table
+            </summary>
+            <param name="userInfo">Parameter Should be userInfo type, Paramer shuld be contains UserName,firstname,LastName,Email,Password</param>
+            <returns></returns>
+        </member>
+        <member name="M:astoriaTrainingAPI.Controllers.EmployeeAttendancesController.GetAllAttendances(System.String,System.Int32)">
+            <summary>
+            Get Employees by passing Date and Company ID
+            </summary>
+            <param name="FilterClockDate"> Parameter should be time </param>
+            <param name="FilterCompanyID"> Integer parameter is required </param>
+            <returns> Returns list of employees by date  </returns>
+        </member>
+        <member name="M:astoriaTrainingAPI.Controllers.EmployeeAttendancesController.PostEmployeeAttendance(System.Collections.Generic.List{astoriaTrainingAPI.Models.EmployeeAttendance})">
+            <summary>
+            Post Attendance
+            </summary>
+            <param name="employeeAttendanceList"> Send data type of attendance </param>
+            <returns> Return bool </returns>
+        </member>
+        <member name="M:astoriaTrainingAPI.Controllers.EmployeeMastersController.GetEmployees">
+            <summary>
+            Get Employees
+            </summary>
+            <returns>List of employees</returns>
+        </member>
+        <member name="M:astoriaTrainingAPI.Controllers.EmployeeMastersController.GetEmployeeMaster">
+            <summary>
+            Get employees with full data from the 
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

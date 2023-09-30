@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>astoriaTrainingAPI</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "M:astoriaTrainingAPI.Controllers.EmployeeAttendancesController.GetAllAttendances(System.String,System.Int32)" -->
+    </members>
+</doc>
